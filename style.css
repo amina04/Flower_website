@@ -1,0 +1,252 @@
+body{
+  padding:0;
+}
+p{
+    font-size: 1.3rem;
+    color: #383838;
+    font-family: 'Nunito Sans', sans-serif;
+  
+  }
+  /* title section */
+  
+  #title {
+    background-color: #F8F8F8;
+    padding-left: 4%;
+   
+    
+  }
+  
+  /* --------------------navbar */
+  
+  .navbar-brand{
+    font-family: "Oleo Script Swash Caps";
+    font-size: 2.4rem;
+  color: #E60965;
+  
+  margin: 0 10px;
+  }
+  .navbar{
+    padding: 0 ;
+  
+  }
+  .nav-link {
+    font-size: 1.2rem;
+    font-family: 'Nunito Sans';
+    color: grey;
+  }
+  .navbar-item {
+    color: grey;
+    padding: 25px 0;
+    margin: 0 10px;
+  }
+  .special_item{
+    background-color: #E60965;
+    color: white;
+  padding: 25px 0;
+  }
+  .navbar-toggler-icon{
+  
+    outline-color: #E60965;
+    
+  }
+  
+  .part_one{
+    text-align: left;
+  padding-top: 10% ;
+  }
+  .part_two{
+    padding-left: 12%;
+  }
+  .big_img{
+    width:380px;
+  }
+  
+  .download-button{
+    margin: 20px 23px;
+    background-color: #E60965;
+    color: white;
+    width: 150px;
+  
+  }
+  .fa-solid{
+    margin-right: 10px;
+    
+  }
+  .text_color{
+    color: #E60965;
+  }
+  h1{
+    font-size:2.5rem;
+    font-family: 'Nunito Sans', sans-serif;
+  padding-left: 4%;
+  line-height: 1.5;
+  color: #383838;
+  }
+  h5{
+    font-size:1.5rem;
+    color: #383838;
+    font-family: 'Nunito Sans', sans-serif;
+    padding-left: 4%;
+  
+  }
+  a:hover{
+    color: black;
+  }
+  /* ********* about us***************** */
+  h2{
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 2.3rem;
+  }
+  #about_us{
+    padding: 7% 0;
+  
+    padding-left: 7%;
+  }
+  .fleur{
+    width:400px;
+    margin-left: 17%;
+  }
+  
+  .about_title{
+    text-align: left;
+    padding: 1% 0;
+  }
+  .about_par{
+    /* text yweli cheghol ki lmorab3 */
+    text-align: justify;
+  
+  }
+  /* ****************** Our product ****************** */
+  #our_product{
+    padding:2% 7%;
+ 
+background-image: url("https://www.transparenttextures.com/patterns/xv.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  }
+  .img_product{
+    width: 170px;
+    align-self: center;
+  }
+  .icon_btn{
+    text-align: center;
+    width: 35px;
+    margin: 0 10px;
+  }
+  
+  .card-body{
+    padding: 0;
+  
+  }
+  .card-title{
+    font-weight: bold;
+      font-family: 'Philosopher', sans-serif;
+    margin-top: 10px;
+  }
+  .price{
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  .our_product_title{
+    margin-bottom: 5%;
+  }
+  /* ******second part */
+  
+  .box{
+     background-size: cover;
+   background-color:#F7D9D9;
+  
+    border: 20px solid transparent;
+    border-radius: 30px;
+    background-clip:padding-box;
+  margin-top: 3%;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  }
+  
+  .prod_img{
+    width: 100px;
+    display: flex;
+  justify-content: flex-end;
+  }
+  .contenent{
+    background-color: #9A9483A7 ;
+  
+    color: white;
+    text-align: center;
+  
+  position: relative;
+  z-index: 3;
+  
+  padding: 1% 0;
+  width: 300px;
+  margin: 0 auto;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: bolder;
+  
+  }
+  .styled,.col_text_big{
+      font-family: "Oleo Script Swash Caps";
+  font-weight: normal;
+  }
+ .styled :hover{
+  color: #f7c7c7;
+font-size: 1.75rem;
+
+ }
+ a:hover{
+  text-decoration: none;
+ }
+  
+  /* -------------------- colorful-------- */
+  #colrful{
+    background-color: #F8F8F8;
+    padding: 2% 8%;
+    margin: 4% 0;
+    
+  }
+  .img_colorful{
+    width: 320px;
+    text-align: center;
+  
+  }
+  .text_colorful{
+    text-align: center;
+    margin: auto;
+  }
+  .col_text_big{
+    font-size: 4rem;
+    color:  #E60965;
+  }
+  
+ 
+  /* ----------------our blog---------------- */
+  #our_blog{
+      padding: 2% 8%;
+   
+  }
+  .blog{margin:20px;
+  }
+ 
+  /*------------------Foooter----------------------*/
+  #footer{
+    padding-top:5% ;
+    padding-bottom: 2%;
+    background-color:#F8F8F8; ;
+  }
+  #footer p{
+    text-align: center;
+    font-size: 1.2rem;
+    color: #383838;
+  }
+  #footer div{
+    
+   text-align: center;
+  }
+ /* masquer scrool horizontal */
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
